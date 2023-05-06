@@ -1,4 +1,5 @@
-//콜백함수 = 어떤 다른 함수에 매개변수로 함수를 넘겨준 것
+//콜백함수 = 함수에 파라미터로 들어가는 함수
+//용도 -순차적으로 실행하고 싶을 때 씀
 
 function checkMood(mood,goodCallback,badCallback) {
     if(mood ==='good') {
